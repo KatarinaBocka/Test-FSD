@@ -1,0 +1,37 @@
+@include breakpoint(phone) {
+    .navbar {
+        padding: 0 150px;
+        border: none;
+        height: 100% !important;
+        border-bottom: 1px solid #528b86;
+        .navbar-container {
+            .navbar-brand {
+                font-size: 30px !important;
+                .brand-bold {
+                    font-weight: bolder !important; 
+                    font-size: 30px !important;
+                }
+            }
+        }
+       
+    }
+    .triangle {
+        display: none;
+    }
+    .nav-link {
+        padding-left: 10px;
+    }
+
+    .carousel-item {
+        background-size: cover;
+    }
+
+    // Main section with boxes
+    main {
+        padding-bottom: 50px;
+        .content {
+            padding-left: calc(100% / 3 - 90px);
+        }
+    }
+    
+}

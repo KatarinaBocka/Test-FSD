@@ -1,0 +1,69 @@
+/* -- Main Section -- */
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    text-align: justify;
+    margin: auto;
+    background-color: $main-color;
+}
+.content .box{
+    border: 1px solid #f8f8f8;
+    padding: 39px 17px 20px;
+    margin: 85px 15px 0;
+    width: 270px;
+    height: 310px;
+    background-color: #f8f8f8;
+    border-bottom: 4px solid $dark-grey;
+    border-radius: 4%;
+    text-align: center;
+    .fa {
+        font-size: 60px;
+        color: $light-blue;
+        margin-bottom: 5px;
+    }
+    h5 {
+        font-weight: 800;
+        color: $title-box;
+        text-transform: uppercase;
+    }
+    p {
+        color: $text-box;
+        margin-top: 20px;
+    }
+
+}
+/* -- All in one row -- */
+.custom-btn {
+    width: 200px;
+    height: 55px;
+    border-radius: .25rem;
+    position: relative;
+    top: 60px;
+    left: 1.2rem;
+    background-color: #76c7c0;
+    border-bottom: 4px solid #62b9b0;
+    p {
+        font-weight: 600;
+        text-align: center;
+        color: $white !important;
+        padding-top: 15px;
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none !important;
+        &:hover {
+            background-color: $medium-red;
+            border-bottom: 4px solid $dark-red;
+            text-decoration: none !important;
+        }
+    }
+   
+}
+#custom-btn2 {
+    top: 44px !important;
+}
+
+.custom-btn:hover .box {
+    background-color: $medium-red;
+}

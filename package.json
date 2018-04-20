@@ -1,0 +1,22 @@
+{
+  "name": "angularTemplate",
+  "version": "1.0.0",
+  "description": "This is templejt for Angular projects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nenad Bosanac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

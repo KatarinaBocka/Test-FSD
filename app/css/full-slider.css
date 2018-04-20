@@ -1,0 +1,204 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+@media only screen and (min-width:1200px) and (max-width:3000px) {
+  .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-control {
+    background-color: #e8645a !important;
+    padding: 18px 13px;
+    border-bottom: 3px solid #e2534b;
+  }
+  .carousel-control-prev-iconic {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    left: 0;
+    position: absolute;
+  }
+  .carousel-control-next-iconic {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    right: 0;
+    position: absolute;
+  }
+  .angle {
+    font-size: 24px !important;
+  }
+  .carousel-indicators {
+    bottom: -45px !important;
+  }
+  .carousel-indicators li {
+    background-color: #b0b8b9 !important;
+    width: 60px;
+    height: 5px;
+  }
+  .carousel-indicators .active {
+    background-color: #e2534b !important;
+  }
+  .carousel-caption {
+    width: 630px;
+    margin: 0 auto;
+    padding: 0;
+    top: 160px;
+  }
+  .carousel-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    background-color: #e2534b;
+    border-radius: 7px;
+  }
+  .carousel-text-wrapp {
+    background-color: rgba(000, 000, 000, 0.5);
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+  .carousel-text {
+    font-size: 16px;
+  }
+  
+}
+
+@media only screen and (min-width:680px) and (max-width:1200px) {
+  .carousel-item {
+    min-height: 300px;
+    height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-control {
+    background-color: #e8645a !important;
+    padding: 8px;
+    border-bottom: 3px solid #e2534b;
+  }
+  .carousel-control-prev-iconic {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    left: 0;
+    position: absolute;
+  }
+  .carousel-control-next-iconic {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    right: 0;
+    position: absolute;
+  }
+  .angle {
+    font-size: 24px !important;
+  }
+  .carousel-indicators {
+    bottom: -45px !important;
+  }
+  .carousel-indicators li {
+    background-color: #b0b8b9 !important;
+    width: 60px;
+    height: 5px;
+  }
+  .carousel-indicators .active {
+    background-color: #e2534b !important;
+  }
+  .carousel-caption {
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    top: 130px;
+    display: block !important;
+  }
+  .carousel-title {
+    text-transform: uppercase;
+    font-size: 28px;
+    background-color: #e2534b;
+    border-radius: 7px;
+  }
+  .carousel-text-wrapp {
+    background-color: rgba(000, 000, 000, 0.5);
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+  .carousel-text {
+    font-size: 16px;
+  }
+  
+}
+  
+
+
+
+@media only screen and (min-width:0px) and (max-width:680px) {
+  .carousel-item {
+    min-height: 300px;
+    height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-control {
+    background-color: #e8645a !important;
+    padding: 8px 8px;
+    border-bottom: 3px solid #e2534b;
+  }
+  .carousel-control-prev-iconic {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    left: 0;
+    position: absolute;
+  }
+  .carousel-control-next-iconic {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    right: 0;
+    position: absolute;
+  }
+  .angle {
+    font-size: 24px !important;
+  }
+  .carousel-indicators {
+    bottom: -45px !important;
+  }
+  .carousel-indicators li {
+    background-color: #b0b8b9 !important;
+    width: 60px;
+    height: 5px;
+  }
+  .carousel-indicators .active {
+    background-color: #e2534b !important;
+  }
+  .carousel-caption {
+    width: 630px;
+    margin: 0 auto;
+    padding: 0;
+    top: 160px;
+    display: block !important;
+  }
+  .carousel-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    background-color: #e2534b;
+    border-radius: 7px;
+  }
+  .carousel-text-wrapp {
+    background-color: rgba(000, 000, 000, 0.5);
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+  .carousel-text {
+    font-size: 16px;
+  }
+  
+}
+

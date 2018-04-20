@@ -1,0 +1,9 @@
+// Standard breakpoint
+@include breakpoint(desktop) {
+    main {
+        padding-bottom: 160px;
+    }
+}
+
+
+

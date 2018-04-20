@@ -1,0 +1,39 @@
+/*-~- variables -~-*/
+// Font
+$font-main: sans-serif;
+$font-sec: serif;
+
+// Colors
+$black: #000;
+$white: #fff;
+$grey: #9d9fa2;
+$main-color: #f3f3f3;
+$light-red: #e5655d;
+$medium-red: #e8645a;
+$dark-red: #e2534b;
+
+$dark-grey: #e5e6e6;
+$medium-blue: #76c7c0;
+$light-blue: #62bdbd;
+$title-box: #7f8c8c;
+$text-box: #777777;
+
+// Durations
+$fastDuration: .1s;
+$mediumDuration: .3s;
+$slowDuration: .6s;
+
+/*-~- breakpoints -~-*/
+$tablet-min: '600px';
+$tablet-max: '1024px';
+
+$nav-height: 10px;
+
+
+// Navigation Variables
+$content-width: 1200px;
+//$mobbreakpoint: 800px;
+$nav-height: 70px;
+$nav-background: #336699;
+$nav-font-color: #ffffff;
+$link-hover-color: #2581DC;

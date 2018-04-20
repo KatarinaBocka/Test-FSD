@@ -1,0 +1,44 @@
+@media only screen and (min-width:600px) and (max-width:700px) {
+  main {
+    padding-bottom: 150px;
+    .content {
+        padding-left: calc(100% / 3 - 40px);
+    }
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:900px) {
+  main {
+    padding-bottom: 150px;
+    .content {
+        padding-left: calc(100% / 3 - 180px);
+    }
+  }
+}
+
+@media only screen and (min-width:900px) and (max-width:1124px) {
+  main {
+    padding-bottom: 150px;
+    .content {
+        padding-left: calc(100% / 3 - 130px);
+    }
+  }
+  .nav-item {
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (min-width:1124px) and (max-width:1224px) {
+  main {
+    padding-bottom: 150px;
+    .content {
+        padding-left: calc(100% / 3 - 95px);
+        .box {
+          padding: 20px;
+        }
+    }
+  }
+  .nav-item {
+    padding: 0 12px;
+  }
+}

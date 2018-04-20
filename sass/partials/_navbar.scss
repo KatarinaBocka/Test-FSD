@@ -1,0 +1,71 @@
+.navbar {
+    padding: 0 150px;
+    border: none;
+    background: #76c7c0;
+    border-bottom: 1px solid #528b86;
+    .navbar-container {
+        .navbar-brand {
+            font-size: 30px !important;
+            .brand-bold {
+                font-weight: bolder !important; 
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+li {
+    padding: 0 15px;
+    .nav-link {
+        color: $white !important;
+        text-transform: uppercase !important;
+    }
+}
+.dropdown {
+    .dropdown-menu {
+        background-color: $dark-red !important;
+        border-color: $dark-red;
+        padding: 5px !important;
+        top: 48px;
+        .dropdown-item {
+            border-radius: .25rempx;
+            &:hover {
+                background-color: $medium-blue;
+            }  
+        }
+        a {
+            background-color: $light-red; 
+            color: $white; 
+        }
+        #md-button {
+            margin: 5px 0;
+        }
+    }
+    &:hover {
+        background-color: $medium-red;
+        border-bottom: 4px solid $dark-red;
+        text-decoration: none;
+        padding-bottom: 12px;
+        height: 40px;
+        border-radius: .25rem; 
+    }    
+}
+.triangle {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 19px;
+    top: -4%;
+    margin-top: -3px;
+    border-width: 0px 7px 7px 7px;
+    border-style: solid;
+    border-color: $dark-red transparent;
+}
+
+.actives {
+    background-color: #62a29e;
+    border-radius: .25rem;
+    padding: 0 15px;
+    border-bottom: 3px solid #528b86;
+    font-size: 14px;
+}
